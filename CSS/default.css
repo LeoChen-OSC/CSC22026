@@ -199,16 +199,28 @@ table td{
     gap:10px;
 }
 
+
+#swiper-1 img{
+    width: 100%;
+    height: 500px;
+}
+
+.swiper-pagination{
+    background-color: white;
+    border-radius: 5px;
+    padding:10px;
+
+}
+#swiper-2 img{
+    width: 100%;
+    height: 500px;
+}
 .head{
     grid-area: head;
     background-color: brown;
 
 }
-#slide1 img{
-    width: 50%;
-    height: 100%;
 
-}
 .subs{
     grid-area: sub;
     background-color: green;

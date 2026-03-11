@@ -17,6 +17,15 @@ margin: 0; /* Remove default browser margins */
     border-radius: 10px;
     border: 5px solid aqua;
 }
+#lol{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    z-index: -1;
+}
 .bder h1{
     color:aqua;
     font-size: 40px;
@@ -566,12 +575,13 @@ table td{
     margin: 20px;
     font-size: 30px;
 }
-
+/* Footer hover effect */
 .footer:hover{
     bottom: 0px;
     transition: bottom 0.5s ease-in-out;
 }
-@media only screen and (max-width: 700px){
+/* Responsive Design using media */
+@media only screen and (max-width: 700px) {
     .bder{
         display: flex;
         justify-content: center;

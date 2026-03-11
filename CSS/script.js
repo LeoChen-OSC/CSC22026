@@ -1,5 +1,5 @@
 let green=0;
-
+console.log("loldjiejiejd9ejidj");
 function myFunction() {
     if (confirm("ボタンを選択してください")) {
         alert("サンプルテキスト パイナップルは好きではありません");
@@ -11,7 +11,7 @@ function myFunction() {
     }
 }
 
-
+// function for a big button that changes the value of a cookie and alerts the user with the new value of the cookie
 function BigButton() {
     alert("sdhdushudssudhwu" + green);
     green=green+1;
@@ -21,12 +21,16 @@ function change(){
     document.getElementById("change").textContent = "chicken nuggets";
     document.getElementById("change").style.backgroundColor = "red";
     document.getElementById("change").style.padding = "20px";
+    document.getElementById("lol").style.opacity = "1";
+    document.getElementById("lol").style.zIndex = "2000";
 }
 function offload(){
     document.getElementById("change").textContent = "Hover over me!";
     document.getElementById("change").style.backgroundColor = "initial";
     document.getElementById("change").style.padding = "initial";
-}
+    document.getElementById("lol").style.opacity = "0";
+    document.getElementById("lol").style.zIndex = "-1";
+}   
 new Swiper("#swiper-1", {
 
     effect: "fade", //cube, fade, coverflow, flip

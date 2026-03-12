@@ -1,6 +1,7 @@
 body{
 background-color:grey;
 font-family: Arial, Helvetica, sans-serif;
+/* default font */
 
 margin: 0; /* Remove default browser margins */
 }
@@ -16,6 +17,24 @@ margin: 0; /* Remove default browser margins */
     padding:30px;
     border-radius: 10px;
     border: 5px solid aqua;
+}
+@keyframes rainbow-gradient{
+    0%{background-image: linear-gradient(red,blue);}
+    25%{background-image: linear-gradient(orange,green);}
+    50%{background-image: linear-gradient(yellow,purple);}
+    75%{background-image: linear-gradient(green,orange);}
+    100%{background-image: linear-gradient(red,blue);}
+    /* The animation will transition through different gradient colors over time */
+
+
+}
+.rainbow-gradient1{
+    background-image: linear-gradient(blue,red);
+    animation-name: rainbow-gradient;
+    animation-duration: 3s;
+    text-align: center;
+    animation-iteration-count: infinite;
+    padding: 30px;
 }
 #lol{
     width: 100%;
@@ -643,9 +662,7 @@ table td{
 
     }
     .footer{
-
+        /* 普陀山 */
         bottom: -20%;
-
-
     }
 }
